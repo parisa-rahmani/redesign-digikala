@@ -1,0 +1,895 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--styles-->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/mainstyle.css" />
+    <link rel="stylesheet" href="css/flickity.min.css" media="screen" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+    />
+
+    <!--scripts-->
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/mainjs.js"></script>
+
+    <script
+      src="https://kit.fontawesome.com/1ac089ea4a.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>پرسش های متداول</title>
+  </head>
+  <body>
+    <header
+      class="sticky-top"
+      style="
+        background-color: #fff;
+        box-shadow: 0 7px 8px 0 rgba(0, 0, 0, 0.04);
+      "
+    >
+      <div class="container" style="max-width: 1676px; margin: 0 auto">
+        <div class="row px-3">
+          <div class="col-12 top-nav">
+            <div class="row">
+              <div class="col-md-6 top-right-side">
+                <div class="row">
+                  <div class="col-3 logo">
+                    <a href="main.html"
+                      ><img
+                        src="images/Digikala-En-LimooGraphic.png"
+                        alt="digikala"
+                    /></a>
+                  </div>
+                  <div class="col-9">
+                    <div class="search-box">
+                      <i class="fa fa-search"></i>
+                      <input
+                        type="search"
+                        name=""
+                        id=""
+                        placeholder="جستجو در دیجی&zwnj;کالا ..."
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 top-left-side">
+                <div class="addcart">
+                  <i class="fa fa-cart-plus"></i>
+                </div>
+                <div class="btn-container">
+                  <a href="http://" target="_blank" rel="noopener noreferrer">
+                    <i class="fa fa-user-o"></i>
+                    <a class="btn-user" href="#">ورود به حساب کاربری</a>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row js-nav">
+            <div class="col-12">
+              <nav class="nav-container d-inline-block">
+                <ul class="main-list">
+                  <li class="li-main">
+                    <a href="#"><i class="fa fa-bars"></i> دسته بندی کالاها</a>
+                    <div id="mega-menu">
+                      <div class="sublist">
+                        <div class="inner-category">
+                          <a href="#">کالای دیجیتال</a>
+                          <a href="#">خودرو، ابزار و اداری</a>
+                          <a href="#">مد و پوشاک</a>
+                          <a href="#">زیبایی و سلامت</a>
+                          <a href="#">خانه و آشپزخانه</a>
+                          <a href="#">کتاب، لوازم تحریر و هنر</a>
+                          <a href="#">اسباب بازی، کودک و نوزاد</a>
+                          <a href="#">ورزش و سفر</a>
+                          <a href="#">خوردنی و آشامیدنی</a>
+                        </div>
+                        <div class="category-options-container">
+                          <div class="category-options-list">
+                            <div class="top-bar">
+                              <a href="#"
+                                >همه دسته بندی&zwnj;های کالای دیجیتال</a
+                              >
+                            </div>
+
+                            <ul>
+                              <li><a href="#">لوازم جانبی گوشی</a></li>
+                              <li><a href="#">کیف وکاور گوشی</a></li>
+                              <li><a href="#">پاور بانک</a></li>
+                              <li><a href="#">پایه نگهدارنده</a></li>
+                              <li><a href="#">سامسونگ</a></li>
+                              <li><a href="#">پایه نگهدارنده</a></li>
+                              <li><a href="#">پایه نگهدارنده</a></li>
+                              <li><a href="#">پایه نگهدارنده</a></li>
+                              <li><a href="#">پایه نگهدارنده</a></li>
+                              <li><a href="#">پایه نگهدارنده</a></li>
+                              <li><a href="#">پایه نگهدارنده</a></li>
+                              <li><a href="#">پایه نگهدارنده</a></li>
+                              <li><a href="#">پایه نگهدارنده</a></li>
+                              <li><a href="#">پایه نگهدارنده</a></li>
+                              <li><a href="#">پایه نگهدارنده</a></li>
+                              <li><a href="#">پایه نگهدارنده</a></li>
+                              <li><a href="#">پایه نگهدارنده</a></li>
+                              <li><a href="#">پایه نگهدارنده</a></li>
+                              <li><a href="#">پایه نگهدارنده</a></li>
+                              <li><a href="#">پایه نگهدارنده</a></li>
+                              <li><a href="#">پایه نگهدارنده</a></li>
+                              <li><a href="#">پایه نگهدارنده</a></li>
+                              <li><a href="#">پایه نگهدارنده</a></li>
+                              <li><a href="#">پایه نگهدارنده</a></li>
+                              <li><a href="#">پایه نگهدارنده</a></li>
+                              <li><a href="#">پایه نگهدارنده</a></li>
+                              <li><a href="#">پایه نگهدارنده</a></li>
+                              <li><a href="#">پایه نگهدارنده</a></li>
+                              <li><a href="#">پایه نگهدارنده</a></li>
+                              <li><a href="#">پایه نگهدارنده</a></li>
+                              <li><a href="#">پایه نگهدارنده</a></li>
+                              <li><a href="#">پایه نگهدارنده</a></li>
+                              <li><a href="#">پایه نگهدارنده</a></li>
+                              <li><a href="#">پایه نگهدارنده</a></li>
+                              <li><a href="#">پایه نگهدارنده</a></li>
+                              <li><a href="#">پایه نگهدارنده</a></li>
+                              <li><a href="#">پایه نگهدارنده</a></li>
+                              <li><a href="#">پایه نگهدارنده</a></li>
+                              <li><a href="#">پایه نگهدارنده</a></li>
+                              <li><a href="#">پایه نگهدارنده</a></li>
+                              <li><a href="#">پایه نگهدارنده</a></li>
+                              <li><a href="#">پایه نگهدارنده</a></li>
+                              <li><a href="#">پایه نگهدارنده</a></li>
+                              <li><a href="#">پایه نگهدارنده</a></li>
+                              <li><a href="#">پایه نگهدارنده</a></li>
+                              <li><a href="#">پایه نگهدارنده</a></li>
+                              <li><a href="#">پایه نگهدارنده</a></li>
+                              <li><a href="#">پایه نگهدارنده</a></li>
+                              <li><a href="#">پایه نگهدارنده</a></li>
+                              <li><a href="#">پایه نگهدارنده</a></li>
+                              <li><a href="#">پایه نگهدارنده</a></li>
+                              <li><a href="#">پایه نگهدارنده</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="li-main">
+                    <a href="#"><i class="fa"></i> سوپرمارکت</a>
+                  </li>
+                  <li class="li-main">
+                    <a href="product-list.html" target="_blank"
+                      ><i class="fa"></i> تخفیف&zwnj;ها و پیشنهادها</a
+                    >
+
+                    <div id="mega-menu" class="takhfif">
+                      <div class="sublist">
+                        <div
+                          class="category-options-container takhfif-category"
+                        >
+                          <div class="category-options-list">
+                            <div class="top-bar">
+                              <a href="#">همه دسته بندی های 1</a>
+                            </div>
+
+                            <ul class="takhfif-list">
+                              <li>
+                                <a class="inner-li-hover" href="#"
+                                  >لوازم جانبی گوشی</a
+                                >
+                              </li>
+                              <li>
+                                <a class="inner-li-hover" href="#">
+                                  کیف وکاور گوشی</a
+                                >
+                              </li>
+                              <li>
+                                <a class="inner-li-hover" href="#">پاور بانک</a>
+                              </li>
+                              <li>
+                                <a class="inner-li-hover" href="#"
+                                  >پایه نگهدارنده</a
+                                >
+                              </li>
+                              <li>
+                                <a class="inner-li-hover" href="#">سامسونگ</a>
+                              </li>
+                              <li>
+                                <a class="inner-li-hover" href="#">
+                                  کیف وکاور گوشی</a
+                                >
+                              </li>
+                              <li>
+                                <a class="inner-li-hover" href="#">
+                                  کیف وکاور گوشی</a
+                                >
+                              </li>
+                              <li>
+                                <a class="inner-li-hover" href="#">
+                                  کیف وکاور گوشی</a
+                                >
+                              </li>
+                              <li>
+                                <a class="inner-li-hover" href="#">
+                                  کیف وکاور گوشی</a
+                                >
+                              </li>
+                              <li>
+                                <a class="inner-li-hover" href="#">
+                                  کیف وکاور گوشی</a
+                                >
+                              </li>
+                              <li>
+                                <a class="inner-li-hover" href="#">
+                                  کیف وکاور گوشی</a
+                                >
+                              </li>
+                              <li>
+                                <a class="inner-li-hover" href="#">
+                                  کیف وکاور گوشی</a
+                                >
+                              </li>
+                              <li>
+                                <a class="inner-li-hover" href="#">
+                                  کیف وکاور گوشی</a
+                                >
+                              </li>
+                              <li>
+                                <a class="inner-li-hover" href="#">
+                                  کیف وکاور گوشی</a
+                                >
+                              </li>
+                              <li>
+                                <a class="inner-li-hover" href="#">
+                                  کیف وکاور گوشی</a
+                                >
+                              </li>
+                              <li>
+                                <a class="inner-li-hover" href="#"
+                                  >پایه نگهدارنده</a
+                                >
+                              </li>
+                              <li>
+                                <a class="inner-li-hover" href="#"
+                                  >پایه نگهدارنده</a
+                                >
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+
+                        <div class="inner-banner">
+                          <a href="#"
+                            ><img src="images/takhfif.jpg" alt=""
+                          /></a>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="li-main">
+                    <a href="#"><i class="fa"></i> دیجی&zwnj;کلای من</a>
+                  </li>
+                  <li class="li-main">
+                    <a href="#"><i class="fa"></i> دیجی کلاب</a>
+                  </li>
+                  <li class="li-main">
+                    <a href="frequently-asked-questions.html" target="_blank"
+                      ><i class="fa"></i> سوالی دارید؟</a
+                    >
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="main-wrapper">
+      <div class="faq-top-banner">
+        <div class="faq-top-title">پاسخ پرسش&zwnj;های پرتکرار</div>
+        <form class="faq-top-search" method="get">
+          <input
+            class="faq-input-search"
+            type="text"
+            name="q"
+            value=""
+            placeholder="پرسش خود را جستجو کنید"
+          />
+          <button type="submit" class="btn-primary faq-submit">جستجو</button>
+        </form>
+      </div>
+      <div class="container">
+        <section class="faq-main-info">
+          <div class="faq-info-content">
+            <div class="faq-info-cats box-content">
+              <div class="info-cats-head">دسته&zwnj;بندی پرسش&zwnj;ها</div>
+
+              <a
+                href="#"
+                class="faq-cat-item cat-item__border-bottom cat-item__border-left"
+              >
+                <div class="cat-item-icon">
+                  <img src="images/f1.png" alt="" />
+                </div>
+                <div class="cat-item-title">ورود و ثبت&zwnj;نام</div>
+              </a>
+
+              <a
+                href="#"
+                class="faq-cat-item cat-item__border-bottom cat-item__border-left"
+              >
+                <div class="cat-item-icon">
+                  <img src="images/f2.png" alt="" />
+                </div>
+                <div class="cat-item-title">روند ثبت سفارش</div>
+              </a>
+
+              <a href="#" class="faq-cat-item cat-item__border-bottom">
+                <div class="cat-item-icon">
+                  <img src="images/f3.png" alt="" />
+                </div>
+                <div class="cat-item-title">پیگیری ارسال سفارش</div>
+              </a>
+
+              <a
+                href="#"
+                class="faq-cat-item cat-item__border-bottom cat-item__border-left"
+              >
+                <div class="cat-item-icon">
+                  <img src="images/f4.png" alt="" />
+                </div>
+                <div class="cat-item-title">بازگرداندن کالا</div>
+              </a>
+
+              <a
+                href="#"
+                class="faq-cat-item cat-item__border-bottom cat-item__border-left"
+              >
+                <div class="cat-item-icon">
+                  <img src="images/f5.png" alt="کدتخفیف و هدیه" />
+                </div>
+                <div class="cat-item-title">کدتخفیف و کارت هدیه</div>
+              </a>
+
+              <a href="#" class="faq-cat-item cat-item__border-bottom">
+                <div class="cat-item-icon">
+                  <img src="images/f6.png" alt="سوپرمارکت" />
+                </div>
+                <div class="cat-item-title">سوپرمارکت</div>
+              </a>
+
+              <a
+                href="#"
+                class="faq-cat-item cat-item__border-bottom cat-item__border-left"
+              >
+                <div class="cat-item-icon">
+                  <img src="images/f7.png" alt="تعهد به شفافیت" />
+                </div>
+                <div class="cat-item-title">تعهد به شفافیت</div>
+              </a>
+
+              <a
+                href="#"
+                class="faq-cat-item cat-item__border-bottom cat-item__border-left"
+              >
+                <div class="cat-item-icon">
+                  <img src="images/f8.png" alt="چند مرسوله&zwnj;ای" />
+                </div>
+                <div class="cat-item-title">چند مرسوله&zwnj;ای</div>
+              </a>
+
+              <a href="#" class="faq-cat-item cat-item__border-bottom">
+                <div class="cat-item-icon">
+                  <img src="images/f9.png" alt="دیجی&zwnj;پی" />
+                </div>
+                <div class="cat-item-title">دیجی&zwnj;پی</div>
+              </a>
+
+              <a
+                href="#"
+                class="faq-cat-item cat-item__border-bottom cat-item__border-left"
+              >
+                <div class="cat-item-icon">
+                  <img src="images/f10.png" alt="دیجی کلاب" />
+                </div>
+                <div class="cat-item-title">دیجی کلاب</div>
+              </a>
+
+              <a
+                href="#"
+                class="faq-cat-item cat-item__border-bottom cat-item__border-left"
+              >
+                <div class="cat-item-icon">
+                  <img src="images/f11.png" alt="سایر موارد" />
+                </div>
+                <div class="cat-item-title">سایر موارد</div>
+              </a>
+
+              <a href="#" class="faq-cat-item cat-item__border-bottom">
+                <div class="cat-item-icon">
+                  <img src="images/f12.png" alt="دعوت از دوستان" />
+                </div>
+                <div class="cat-item-title">دعوت از دوستان</div>
+              </a>
+
+              <a href="#" class="faq-cat-item cat-item__border-left">
+                <div class="cat-item-icon">
+                  <img src="images/f13.png" alt=" خدمات بازاریابی" />
+                </div>
+                <div class="cat-item-title">خدمات بازاریابی</div>
+              </a>
+
+              <a href="#" class="faq-cat-item cat-item__border-left">
+                <div class="cat-item-icon">
+                  <img src="images/f14.png" alt="آخرین تغییرات" />
+                </div>
+                <div class="cat-item-title">آخرین تغییرات</div>
+              </a>
+
+              <a href="#" class="faq-cat-item">
+                <div class="cat-item-icon">
+                  <img src="images/f15.png" alt="" />
+                </div>
+                <div class="cat-item-title">دیجی پلاس</div>
+              </a>
+            </div>
+
+            <div class="faq-questions box-content">
+              <div class="faq-question-item">
+                <div class="faq-toggler item-1">
+                  <div class="question-head">
+                    شرایط خرید و بازگرداندن کالا برای کالاهای سوپر مارکتی چگونه
+                    است؟
+                  </div>
+
+                  <div class="toggle-icon icon-1">
+                    <span class="arrow-down"></span>
+                  </div>
+                </div>
+                <div class="question-content content-1">
+                  <p>
+                    لطفاً پیش از خرید، موارد زیر را به‌دقت بخوانید؛ زیرا ثبت هر
+                    سفارش در دیجی‌کالا به معنی موافقت با شرایط زیر است.
+                  </p>
+                  <div class="q-content-more">
+                    <a href="#"
+                      >مشاهده توضیحات تکمیلی<span class="arrow-left"></span
+                    ></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="faq-question-item">
+                <div class="faq-toggler item-2">
+                  <div class="question-head">
+                    چرا به شماره سفارش (DKC) نیاز داریم؟
+                  </div>
+
+                  <div class="toggle-icon icon-2">
+                    <span class="arrow-down"></span>
+                  </div>
+                </div>
+                <div class="question-content content-2">
+                  <p>
+                    دیجی کالا برای افزایش سرعت پاسخ گویی به مشتریان با دریافت کد
+                    سفارش یا همان کد "DKC " این امکان رو ایجاد کرده که بتونید در
+                    زمان کمتری به نتیجه مورد نظر خود برسید...
+                  </p>
+                  <div class="q-content-more">
+                    <a href="#"
+                      >مشاهده توضیحات تکمیلی<span class="arrow-left"></span
+                    ></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="faq-question-item">
+                <div class="faq-toggler item-3">
+                  <div class="question-head">
+                    شرایط استفاده از کد تخفیف اولین خرید چیست؟
+                  </div>
+
+                  <div class="toggle-icon icon-3">
+                    <span class="arrow-down"></span>
+                  </div>
+                </div>
+                <div class="question-content content-3">
+                  <p>
+                    سیستم هوشمند دیجی کالا، پس از بررسی حساب کاربری در صورتی که
+                    مالک آن مشتری جدید دیجی کالا باشد...
+                  </p>
+                  <div class="q-content-more">
+                    <a href="#"
+                      >مشاهده توضیحات تکمیلی<span class="arrow-left"></span
+                    ></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="faq-question-item">
+                <div class="faq-toggler item-4">
+                  <div class="question-head">
+                    میتوانم سفارشم را بصورت اقساطی ( اعتباری ) پرداخت کنم؟
+                  </div>
+
+                  <div class="toggle-icon icon-4">
+                    <span class="arrow-down"></span>
+                  </div>
+                </div>
+                <div class="question-content content-4">
+                  <p>
+                    بله، دیجی کالا تسهیلاتی را فراهم کرده، شما میتوانید تا سقف
+                    10 میلیون تومان به صورت اقساط با بازپرداخت 6 ماهه از سایت
+                    دیجی کالا خرید کنید.
+                  </p>
+                  <div class="q-content-more">
+                    <a href="#"
+                      >مشاهده توضیحات تکمیلی<span class="arrow-left"></span
+                    ></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="faq-question-item">
+                <div class="faq-toggler item-5">
+                  <div class="question-head">
+                    چطور درخواست خود را جهت بازگردان کالا (مرجوعی کالا) به شما
+                    اطلاع دهم؟
+                  </div>
+
+                  <div class="toggle-icon icon-5">
+                    <span class="arrow-down"></span>
+                  </div>
+                </div>
+                <div class="question-content content-5">
+                  <p>
+                    شما میتوانید از طریق فرم درخواست مرجوعی در پروفایل ، صفحه
+                    تماس با ما و تلفن درخواست خود را ثبت نمایید.
+                  </p>
+                  <div class="q-content-more">
+                    <a href="#"
+                      >مشاهده توضیحات تکمیلی<span class="arrow-left"></span
+                    ></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="faq-question-item">
+                <div class="faq-toggler item-6">
+                  <div class="question-head">شرایط گارانتی دیجی کالا</div>
+
+                  <div class="toggle-icon icon-6">
+                    <span class="arrow-down"></span>
+                  </div>
+                </div>
+                <div class="question-content content-6">
+                  <p>
+                    امروزه توجه به کیفیت کالا از مهمترین وظایف فروشندگان کالا
+                    است و خدمات پس از فروش ضامن حفظ این کیفیت می باشد.
+                  </p>
+                  <p>
+                    در همین راستا شرکت دیجی کالا مفتخر به ارائه سرویس در اسرع
+                    وقت به مشتریان گرامی می باشد.
+                  </p>
+                  <p>
+                    جهت سهولت در پیگیری گارانتی دستگاه خود می توانید از طریق
+                    شماره 02161930010 اقدام نمائید.
+                  </p>
+                  <div class="q-content-more">
+                    <a href="#"
+                      >مشاهده توضیحات تکمیلی<span class="arrow-left"></span
+                    ></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="faq-question-item">
+                <div class="faq-toggler item-7">
+                  <div class="question-head">
+                    چطور میتوانم بدون برقراری تماس، درخواست مرجوعی کالای خریداری
+                    شده را اعلام کنم؟
+                  </div>
+
+                  <div class="toggle-icon icon-7">
+                    <span class="arrow-down"></span>
+                  </div>
+                </div>
+                <div class="question-content content-7">
+                  <p>
+                    شما میتواند وارد پروفایل خود شوید و از قسمت
+                    <a href="#">درخواست مرجوعی</a> ، فرم درخواست را تکمیل کنید.
+                  </p>
+                  <div class="q-content-more">
+                    <a href="#"
+                      >مشاهده توضیحات تکمیلی<span class="arrow-left"></span
+                    ></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="faq-question-item">
+                <div class="faq-toggler item-8">
+                  <div class="question-head">
+                    چطور میتوانم سفارشم را لغو کنم ؟
+                  </div>
+
+                  <div class="toggle-icon icon-8">
+                    <span class="arrow-down"></span>
+                  </div>
+                </div>
+                <div class="question-content content-8">
+                  <p>
+                    شما میتوانید با مراجعه به پروفایل خود سفارش یا مرسوله ایی که
+                    از ارسال آن منصرف شدید را لغو نمایید.
+                  </p>
+                  <div class="q-content-more">
+                    <a href="#"
+                      >مشاهده توضیحات تکمیلی<span class="arrow-left"></span
+                    ></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="faq-question-item">
+                <div class="faq-toggler item-9">
+                  <div class="question-head">چطور میتوانم امتیاز‌ بگیریم؟</div>
+
+                  <div class="toggle-icon icon-9">
+                    <span class="arrow-down"></span>
+                  </div>
+                </div>
+                <div class="question-content content-9">
+                  <p>شما از سه راه می‌توانید امتیاز بگیرید:</p>
+
+                  <p>خرید کالا</p>
+
+                  <p>ثبت نظر</p>
+
+                  <p>دعوت از دوستان برای خرید از دیجی‌کالا</p>
+                  <div class="q-content-more">
+                    <a href="#"
+                      >مشاهده توضیحات تکمیلی<span class="arrow-left"></span
+                    ></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="faq-question-item">
+                <div class="faq-toggler item-10">
+                  <div class="question-head">
+                    چطور میتوانم سفارشم را پیگیری کنم ؟
+                  </div>
+
+                  <div class="toggle-icon icon-10">
+                    <span class="arrow-down"></span>
+                  </div>
+                </div>
+                <div class="question-content content-10">
+                  <p>وارد سایت دیجی کالا شوید.</p>
+
+                  <p>روی گزینه سفارش های من کلیک کنید.</p>
+
+                  <p>
+                    در این قسمت با کلیک روی جزییات میتوانید سفارش خود را ببینید.
+                  </p>
+
+                  <p>
+                    میتوانید در این قسمت روند آماده سازی و مراحل ارسال سفارش خود
+                    را پیگیری کنید.
+                  </p>
+                  <div class="q-content-more">
+                    <a href="#"
+                      >مشاهده توضیحات تکمیلی<span class="arrow-left"></span
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <div class="top-wrap">
+        <div class="container">
+          <div class="row">
+            <a href="#top"><i class="fa fa-angle-up"></i>برگشت به بالا</a>
+          </div>
+        </div>
+      </div>
+
+      <footer style="width: 100%">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="services">
+                <div class="service-item">
+                  <i class="fa fa-sellsy"></i>
+                  <p>تحویل اکسپرس</p>
+                </div>
+                <div class="service-item">
+                  <i class="fa fa-sellsy"></i>
+                  <p>پشتیبانی 24 ساعته</p>
+                </div>
+                <div class="service-item">
+                  <i class="fa fa-sellsy"></i>
+                  <p>پرداخت در محل</p>
+                </div>
+                <div class="service-item">
+                  <i class="fa fa-sellsy"></i>
+                  <p>7 روز ضمانت بازگشت</p>
+                </div>
+                <div class="service-item">
+                  <i class="fa fa-sellsy"></i>
+                  <p>ضمانت اصل بودن کالا</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row mid-footer">
+            <div class="col-2">
+              <ul class="footer-list">
+                <p><a href="#">راهنمای خرید از دیجی کالا</a></p>
+                <li><a href="#">نحوه ثبت سفارش</a></li>
+                <li><a href="#">رویه ارسال سفارش</a></li>
+                <li><a href="#">شیوه های پرداخت</a></li>
+              </ul>
+            </div>
+            <div class="col-2">
+              <ul class="footer-list">
+                <p><a href="#">خدمات مشتریان</a></p>
+                <li><a href="#">پاسخ به پرسش های متداول</a></li>
+                <li><a href="#">رویه های بازگرداندن کالا</a></li>
+                <li><a href="#">شرایط استفاده</a></li>
+                <li><a href="#">حریم خصوصی</a></li>
+                <li><a href="#">گزارش باگ</a></li>
+              </ul>
+            </div>
+            <div class="col-2">
+              <ul class="footer-list">
+                <p><a href="#">با دیجی کالا</a></p>
+                <li><a href="#">اتاق خبر دیجی کالا </a></li>
+                <li><a href="#">فروش در دیجی کالا </a></li>
+                <li><a href="#">فرصت های شغلی </a></li>
+                <li><a href="#">تماس با دیجی کالا </a></li>
+                <li><a href="#">درباره دیجی کالا </a></li>
+              </ul>
+            </div>
+
+            <div class="col-4 footer-form">
+              <p>از تخفیف‌ها و جدیدترین‌های دیجی‌کالا باخبر شوید:</p>
+              <form action="#" method="POST">
+                <input
+                  class="form-control"
+                  type="email"
+                  name="email"
+                  placeholder="آدرس ایمیل خود را وارد کنید"
+                />
+                <button type="submit">ارسال</button>
+              </form>
+              <div class="social-media">
+                <p>دیجی‌کالا را در شبکه‌های اجتماعی دنبال کنید:</p>
+                <div class="social-icon">
+                  <a href="#"><i class="fa fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row info-container">
+            <div class="col-6">
+              <div class="info">
+                <p>هفت روز هفته ، ۲۴ ساعت شبانه‌روز پاسخگوی شما هستیم</p>
+                <p style="margin-bottom: 0">شماره تماس: 02161930000</p>
+              </div>
+            </div>
+            <div class="col-6 img-info">
+              <div class="row">
+                <div class="col-4">
+                  <img src="images/googleplay.png" alt="" />
+                </div>
+                <div class="col-4">
+                  <img src="images/bazar.png" alt="" />
+                </div>
+                <div class="col-4">
+                  <img src="images/sibapp.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row about-container">
+            <div
+              class="about-inner-container"
+              style="
+                display: flex;
+                margin: 0 auto;
+                max-width: 1450px;
+                padding: 0 30px;
+              "
+            >
+              <div class="col-7 about">
+                <h6>فروشگاه اینترنتی دیجی‌کالا، بررسی، انتخاب و خرید آنلاین</h6>
+                <p>
+                  دیجی‌کالا به عنوان یکی از قدیمی‌ترین فروشگاه های اینترنتی با
+                  بیش از یک دهه تجربه، با پایبندی به سه اصل، پرداخت در محل، 7
+                  روز ضمانت بازگشت کالا و تضمین اصل‌بودن کالا موفق شده تا همگام
+                  با فروشگاه‌های معتبر جهان، به بزرگ‌ترین فروشگاه اینترنتی ایران
+                  تبدیل شود. به محض ورود به سایت دیجی‌کالا با دنیایی از کالا رو
+                  به رو می‌شوید! هر آنچه که نیاز دارید و به ذهن شما خطور می‌کند
+                  در اینجا پیدا خواهید کرد.
+                </p>
+              </div>
+              <div class="col-5 about-img">
+                <div class="row">
+                  <div class="col-4 px-1">
+                    <img src="images/meli.png" alt="" />
+                  </div>
+                  <div class="col-4 px-1">
+                    <img src="images/sanat.png" alt="" />
+                  </div>
+                  <div class="col-4 px-1">
+                    <img src="images/etehadie.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row" style="background-color: #d7dee0; padding: 0 10px">
+            <div class="col-12">
+              <nav style="text-align: center; border-bottom: 1px solid #bdbdbd">
+                <ul class="info-partner">
+                  <li>
+                    <a href="#"><img src="images/digikalamag.svg" alt="" /></a>
+                  </li>
+                  <li>
+                    <a href="#" style="width: 100%"
+                      ><img style="width: 60%" src="images/digipay.svg" alt=""
+                    /></a>
+                  </li>
+                  <li>
+                    <a href="#" style="width: 100%"
+                      ><img
+                        style="width: 60%"
+                        src="images/digistyle.svg"
+                        alt=""
+                    /></a>
+                  </li>
+                  <li>
+                    <a href="#"><img src="images/digiclub.svg" alt="" /></a>
+                  </li>
+                  <li>
+                    <a href="#"><img src="images/digiaff.svg" alt="" /></a>
+                  </li>
+                  <li>
+                    <a href="#"><img src="images/fid.svg" alt="" /></a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+
+          <div
+            class="row"
+            style="background-color: #d7dee0; padding: 20px 10px"
+          >
+            <div class="col-12">
+              <div class="copyright">
+                <p>designed by PARISA RAHMANI</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
